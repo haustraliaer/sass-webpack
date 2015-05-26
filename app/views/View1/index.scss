@@ -1,0 +1,6 @@
+@import '~css-globals/index';
+
+.View1 {
+  @include boxMixin(60px);
+  background: #7ADB61;
+}

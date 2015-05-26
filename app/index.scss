@@ -1,0 +1,7 @@
+@import "~css-globals/index";
+@import "~css-reset/index";
+
+.App {
+  @include boxMixin(20px);
+  display: flex;
+}
