@@ -30,6 +30,9 @@ open http://localhost:8080/
 
 ## Testing the sass imports
 
-`webpack-dev-server` and `webpack` commands both hang unless you comment out the `@import '~css-globals/index';` in `app/views/View3`.
+
+Uncomment the `@import '~css-globals/index';` in `app/views/View3`:
+
+`webpack-dev-server` and `webpack` commands both hang...
 
 It seems like ~3 imports of the same file is about the limit.
